@@ -1,0 +1,14 @@
+{
+  "name": "mysql-api-updater",
+  "version": "1.0.0",
+  "description": "A script to update place IDs from an API to a MySQL database.",
+  "main": "updatePlacements.js",
+  "scripts": {
+    "start": "node updatePlacements.js"
+  },
+  "dependencies": {
+    "axios": "^1.7.2",
+    "dotenv": "^16.4.5",
+    "mysql2": "^3.10.0"
+  }
+}
